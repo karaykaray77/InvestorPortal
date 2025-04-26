@@ -1,0 +1,78 @@
+Investor Relations (IR) Portal Website and App
+Objective
+Design a user-friendly, professional, and secure website and mobile app for Investor Relations (IR) professionals to connect, share resources, and offer their services to companies. The platform should foster collaboration, provide access to industry insights, and serve as a marketplace for IR expertise.
+Target Audience
+•	Primary Users: IR professionals (e.g., corporate IR officers, consultants, analysts) seeking to network, share knowledge, and offer services.
+•	Secondary Users: Companies (e.g., startups, public firms) looking to hire IR professionals for strategic communication, investor outreach, or compliance needs.
+•	Additional Stakeholders: Financial media, regulators, and industry associations accessing public-facing resources.
+Key Features
+1. User Profiles and Authentication
+•	Secure registration/login with email, LinkedIn, or SSO options.
+•	Detailed user profiles for IR professionals, including:
+o	Expertise (e.g., shareholder engagement, ESG reporting, crisis communication).
+o	Certifications (e.g., CFA, NIRI).
+o	Work history, testimonials, and portfolio (e.g., past IR campaigns).
+o	Companies can create profiles to post job listings or service requests.
+•	Role-based access (e.g., IR professional, company, guest).
+2. Community and Networking
+•	Discussion forums categorized by topics (e.g., earnings calls, proxy statements, investor presentations).
+•	Private messaging and group chats for collaboration.
+•	Virtual and in-person event hosting (e.g., webinars, IR conferences).
+•	Mentorship program connecting experienced IR professionals with newcomers.
+3. Knowledge Hub
+•	Resource library with templates (e.g., investor decks, press releases), whitepapers, and case studies.
+•	News aggregator for IR-relevant updates (e.g., SEC regulations, market trends).
+•	Searchable database of best practices and compliance guidelines.
+•	User-contributed content (e.g., articles, videos) with moderation.
+4. Marketplace for Services
+•	Job board for IR roles (full-time, freelance, or project-based).
+•	Service listings where IR professionals can offer consulting (e.g., investor pitch preparation, ESG strategy).
+•	Request-for-proposal (RFP) system for companies to solicit bids from IR professionals.
+•	Rating/review system for professionals and companies post-project.
+5. Analytics and Tools
+•	Dashboard for IR professionals to track engagement (e.g., profile views, service inquiries).
+•	Integration with financial tools (e.g., Bloomberg, FactSet) for market data (if feasible).
+•	Customizable alerts for regulatory changes or industry news.
+•	Reporting tools for companies to monitor IR campaign performance.
+6. Mobile App-Specific Features
+•	Push notifications for messages, event reminders, or new job postings.
+•	Offline access to downloaded resources (e.g., templates, articles).
+•	Mobile-friendly RFP submission and bidding process.
+•	Voice-to-text for forum posts or messaging.
+Design Requirements
+User Interface (UI)
+•	Clean, professional design with a corporate aesthetic (e.g., neutral colors, clear typography).
+•	Intuitive navigation with a sidebar or top menu for key sections (Community, Marketplace, Resources, Events).
+•	Responsive design for seamless use across desktop, tablet, and mobile.
+•	Accessibility compliance (e.g., WCAG 2.1 standards).
+User Experience (UX)
+•	Onboarding tutorial for new users to explore features.
+•	Personalized homepage with recommended content based on user role and interests.
+•	Fast search functionality with filters (e.g., by expertise, location, or rating).
+•	Frictionless payment system for marketplace transactions (e.g., Stripe integration).
+Technical Requirements
+•	Frontend: Use React.js with Tailwind CSS for the website; React Native for the mobile app.
+•	Backend: Node.js with Express or Django for API; PostgreSQL for database.
+•	Security: Implement OAuth 2.0, HTTPS, and data encryption; GDPR/CCPA compliance for user data.
+•	Scalability: Cloud hosting (e.g., AWS, Azure) with load balancing for high traffic.
+•	Integrations: APIs for LinkedIn, financial data providers, and payment gateways.
+•	Analytics: Google Analytics or Mixpanel for user behavior tracking.
+Content Guidelines
+•	Professional tone with clear, concise language.
+•	Include tooltips or help sections for complex features (e.g., RFP submission).
+•	Provide sample content for forums, job postings, and resource templates during launch.
+Deliverables
+1.	Website:
+o	Homepage with feature highlights and call-to-action (e.g., "Join Now," "Post a Job").
+o	Dedicated pages for Community, Marketplace, Resources, and Events.
+o	User dashboard with profile management and analytics.
+2.	Mobile App:
+o	iOS and Android versions with identical core features to the website.
+o	Mobile-optimized UI for networking and marketplace interactions.
+3.	Wireframes and Mockups:
+o	Low-fidelity wireframes for key pages/screens.
+o	High-fidelity mockups showcasing the corporate aesthetic.
+4.	Prototype:
+o	Clickable prototype for website and app to demonstrate user flows.
+5.	Technical Documentation:
+o	API endpoints, database schema, and deployment instructions.
