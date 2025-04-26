@@ -45,3 +45,7 @@ function App() {
 }
 
 export default App;
+import TestPage from './pages/test-page';
+
+// In your routes definition
+<Route path="/test" component={TestPage} />
